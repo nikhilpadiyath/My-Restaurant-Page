@@ -1,0 +1,19 @@
+{
+  "name": "my-restaurant-page",
+  "version": "1.0.0",
+  "description": "My restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpadiyath/My-Restaurant-Page.git"
+  },
+  "author": "Nikhil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilpadiyath/My-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/nikhilpadiyath/My-Restaurant-Page#readme"
+}
