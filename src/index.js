@@ -1,1 +1,2 @@
-console.log("My first statement in index.js");
+import * as module from './home.js';
+module.homePageLoad();

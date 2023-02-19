@@ -1,7 +1,22 @@
 body{
     background-color: tan;
 }
+
 img{
     width: 500px;
     height: 300px;
 }
+
+#content{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
