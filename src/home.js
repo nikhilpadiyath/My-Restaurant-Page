@@ -1,6 +1,10 @@
+import restaurantImage from './asset/dining.jpg';
+
 export function homePageLoad(){
 
     const content=document.querySelector("#content");
+    content.replaceChildren();
+    
     const heading= document.createElement("h1");
     heading.classList.add("title");
     heading.textContent = "Welcome to Nikhil's Restaurant";
@@ -8,7 +12,7 @@ export function homePageLoad(){
 
     const dining= document.createElement("img");
     dining.classList.add("myImage");
-    dining.src="../src/asset/dining.jpg"
+    dining.src= restaurantImage;
     dining.alt= "Restaurant Image";
     content.appendChild(dining);
 

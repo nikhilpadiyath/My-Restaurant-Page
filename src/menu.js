@@ -1,3 +1,6 @@
+import biri from './asset/biriyani.jpg';
+import nood from './asset/noodles.jpg';
+
 export function menu(){
     const content = document.querySelector("#content");
     content.replaceChildren();
@@ -7,8 +10,8 @@ export function menu(){
     content.appendChild(heading);
 
     const biriyani = document.createElement("img");
-    biriyani.classList.add("image");
-    biriyani.src= "../src/asset/biriyani.jpg";
+    biriyani.classList.add("menu-image");
+    biriyani.src= biri;
     biriyani.alt="Biriyani's Image";
     content.appendChild(biriyani);
 
@@ -18,8 +21,8 @@ export function menu(){
     content.appendChild(food1);
 
     const noodles = document.createElement("img");
-    noodles.classList.add("image");
-    noodles.src= "../src/asset/noodles.jpg";
+    noodles.classList.add("menu-image");
+    noodles.src= nood;
     noodles.alt="Noodles' Image";
     content.appendChild(noodles);
 

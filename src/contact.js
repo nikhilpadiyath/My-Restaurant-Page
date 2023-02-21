@@ -1,4 +1,6 @@
-
+import location from './asset/address.jpg';
+import tele from './asset/tel.jpg';
+import mail from './asset/email.jpg';
 
 export function contact(){
     const content = document.querySelector("#content");
@@ -10,8 +12,8 @@ export function contact(){
     content.appendChild(heading);
 
     const address = document.createElement("img");
-    address.classList.add("image");
-    address.src= "../src/asset/address.jpg";
+    address.classList.add("contact-image");
+    address.src= location;
     address.alt="Location pointer Image";
     content.appendChild(address);
 
@@ -21,8 +23,8 @@ export function contact(){
     content.appendChild(contact1);
 
     const tel = document.createElement("img");
-    tel.classList.add("image");
-    tel.src= "../src/asset/tel.jpg";
+    tel.classList.add("contact-image");
+    tel.src= tele;
     tel.alt="Telephone's Image";
     content.appendChild(tel);
 
@@ -32,8 +34,8 @@ export function contact(){
     content.appendChild(contact2);
 
     const email = document.createElement("img");
-    email.classList.add("image");
-    email.src= "../src/asset/email.jpg";
+    email.classList.add("contact-image");
+    email.src= mail;
     email.alt="Email's Image";
     content.appendChild(email);
 
